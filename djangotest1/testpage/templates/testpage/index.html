@@ -7,7 +7,16 @@
 </head>
 <body>
     <h1>THIS IS A TEST</h1>
+    <ul>
+      {% for item in items %}
+        <li>
+        {{item.name}}
+        {{item.done}}
+        </li>   {% endfor %}
+    </ul>
     
+
+   
     
 </body>
 </html>
